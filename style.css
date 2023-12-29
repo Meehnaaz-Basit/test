@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0 auto;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+.btn-sec {
+  margin-top: 60px;
+}
+#yesButton {
+  padding: 10px 20px;
+  background-color: green;
+  border: none;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+#noButton {
+  padding: 10px 20px;
+  background-color: red;
+  border: none;
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
